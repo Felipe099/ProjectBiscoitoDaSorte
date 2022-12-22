@@ -22,6 +22,8 @@ openCookie.addEventListener("click", function() {
   handleTryCookie()
   const numberRandom = Math.round(Math.random() * 10)
   frase.innerText = frasesMotivacionais[numberRandom]
+  console.log(numberRandom)
+
 })
 openTryCookie.addEventListener("click", handleTryCookie)
 

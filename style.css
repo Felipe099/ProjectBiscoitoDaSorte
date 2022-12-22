@@ -97,6 +97,8 @@ main {
     border-color: #ff9500;
 
     padding: 1.6rem;
+
+    cursor: pointer;
 }
 
 
